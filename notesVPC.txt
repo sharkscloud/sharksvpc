@@ -25,3 +25,14 @@ define outbound rules as well.
 2. SG --> Security Group. SG is statefull, means once we define inbound(ingress, incoming) rules we don't 
 have to define outbound(egress, outgoung) rules. It's automatically allowed. 
 2.1 SGs work in EC2 level 
+
+
+10/16/2021 -- VPC cont. 
+
+1. Diagram tools --> draw.io or lucidchart 
+
+HomeWork for 10/23/2021
+
+1. Use draw.io or lucidchart to build VPC with 4 subnests (2 Public and 2 Private) and rest of VPC 
+components. 
+2. Build README.md file and add all the steps for VPC. 
