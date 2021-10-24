@@ -52,7 +52,7 @@
             }
         },
         "vpc1SubnetPrivate": {
-            "Type": "AWS::EC2::Subnet",
+            "Type": "AWS::EC2::Subnet1",
             "Properties": {
                 "VpcId": {"Ref": "vpc1"},
                 "Tags": [{"Key": "Name", "Value": "FutureHouseSubnetPrivate"}],
