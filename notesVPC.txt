@@ -78,6 +78,13 @@ Date: 10/23/2021 -- VPC cont. Automation
 11. aws cloudformation deploy --template-file vpcdeploy.json --stack-name vpc-stack --parameter-overrides KeyName=bastion
 12. Deployment --> Fresh Deployment and Upgrade. 
 
+CI/CD is a glue in the project.
+
+git branch -vv
+
+In Monolitich applications all tightly coupled.
+In Microservices applications all loosely coupled. 
+
 HomeWork --> 10/30/2021
 
 Take existing VPC CFT. Add 2 Subnets (1 public and 1 private). 
