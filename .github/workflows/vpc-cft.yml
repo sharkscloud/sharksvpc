@@ -28,7 +28,7 @@ jobs:
       run: curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
     - name: Install uznip package
-      run: apt-get install unzip -y 
+      run: sudo apt-get install unzip -y 
 
     - name: Unzip AWS CLI packages
       run: unzip awscliv2.zip
